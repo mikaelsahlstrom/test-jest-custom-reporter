@@ -1,0 +1,15 @@
+{
+  "name": "test-jest-custom-reporter",
+  "version": "1.0.0",
+  "description": "Test of how to implement a custom reporter for Jest.",
+  "main": "index.js",
+  "author": "Mikael Sahlström",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "jest": "^24.1.0"
+  }
+}
