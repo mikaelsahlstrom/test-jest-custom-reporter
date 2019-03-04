@@ -25,14 +25,15 @@ class Reporter {
             numTodoTests,
             testResults
         } = testResult;
-        console.log(testResults);
-        for (result in testResults) {
+
+        for (var i = 0; i < testResults.length; i += 1)
+        {
             const {
                 fullName,
                 title,
                 status
-            } = result;
-            console.log(result);
+            } = testResults[i];
+
             log('Result of test ' + fullName + ': ' + status);
         }
     }
